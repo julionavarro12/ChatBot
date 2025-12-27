@@ -50,18 +50,15 @@ cd seu-repositorio
 Instale as dependências:
 
 bash
-Copiar código
 pip install groq python-dotenv
 Configuração da API Key
 Crie um arquivo .env na raiz do projeto:
 
 text
-Copiar código
 GROQ_API_KEY=SUA_API_KEY_AQUI
 No seu código (chatbot.py), use:
 
 python
-Copiar código
 import os
 from groq import Groq
 from dotenv import load_dotenv
@@ -71,20 +68,17 @@ load_dotenv()  # Carrega variáveis do arquivo .env
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 Não publique sua API key no GitHub. Adicione .env ao .gitignore:
 
-text
-Copiar código
+
 .env
 Como executar
 No terminal, dentro da pasta do projeto:
 
 bash
-Copiar código
 python chatbot.py
 Digite o tema ou pergunta e o chatbot responderá com uma explicação detalhada.
 Para encerrar, digite:
 
 text
-Copiar código
 sair
 Estrutura do projeto
 Copiar código
