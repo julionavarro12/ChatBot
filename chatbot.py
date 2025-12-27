@@ -1,7 +1,8 @@
 from groq import Groq
+from dotenv import load_dotenv
 
 client = Groq(
-    api_key="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"
+    api_key="sua_chave_de_api_aqui"
 )
 
 contexto = [
