@@ -49,12 +49,12 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 Instale as dependências:
 
-bash
+
 pip install groq python-dotenv
 Configuração da API Key
 Crie um arquivo .env na raiz do projeto:
 
-text
+
 GROQ_API_KEY=SUA_API_KEY_AQUI
 No seu código (chatbot.py), use:
 
@@ -78,8 +78,8 @@ python chatbot.py
 Digite o tema ou pergunta e o chatbot responderá com uma explicação detalhada.
 Para encerrar, digite:
 
-text
-sair
+
+
 Estrutura do projeto
 Copiar código
 chatbot-estudo
